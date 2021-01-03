@@ -1,0 +1,45 @@
+body {
+    background-color: #92cec9;
+}
+
+h1 {
+    color: white;
+    padding: 16px;
+    font-size: 150px;
+    border: none;
+  }
+
+header {
+    position: relative;
+    display: inline-block;
+}
+
+nav {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+nav a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+header:hover nav {display: block;}
+
+.aboutMe {
+    background-color: #077067;
+}
+
+.projects {
+    background-color: #077067;
+}
+
+ul {
+    column-count: 2
+}
