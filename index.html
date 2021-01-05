@@ -7,42 +7,40 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./layout.css">
 </head>
-<body>
+<body class="flex-container">
     <header>  
         
         <h1>Brena <br>
-            Bishop
+            Bishop 
         </h1>
+        
         <nav>
-            <a href="#">About Me</a>
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Resume</a>    
-            <a href="#">Contact</a>    
+            <a href="#aboutMe">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>    
+            <a href="#connect">Connect</a>    
         </nav>
     </header>
    
-    
-    <section class="aboutMe">
-        <h2>
-            About Me
-            <hr>
-        </h2>
-        <p>
-            <img src="Images\20190910_130952.jpg" width="150" height="150" >
-
-            Spicy jalapeno bacon ipsum dolor amet swine sausage 
-            capicola pastrami turducken doner ribeye pork chop 
-            brisket t-bone cow ham beef ribs. Drumstick brisket 
-            jowl doner chislic flank buffalo short ribs sausage 
-            ribeye jerky venison fatback tenderloin shoulder. 
-        </p>
+    <section>
+        <a id="aboutMe"><h2 >About Me</h2></a>
+        <hr>
+        <div class="flex-item-about">
+            <img class="self" src="https://github.com/brenabishop/Portfolio/blob/Main/Images/20190910_130952.jpg?raw=true">
+            <p>
+                Spicy jalapeno bacon ipsum dolor amet swine sausage 
+                capicola pastrami turducken doner ribeye pork chop 
+                brisket t-bone cow ham beef ribs. Drumstick brisket 
+                jowl doner chislic flank buffalo short ribs sausage 
+                ribeye jerky venison fatback tenderloin shoulder. 
+            </p>
+        </div>
     </section>
-    <section class="skills"> 
-        <h2>
-            Skills
-            <hr>
-        </h2>
+
+    <section class="flex-item-skills"> 
+        <a id="skills"><h2>Skills</h2></a>
+        <hr>
         <ul>
             <li>OOP</li>
             <li>TDD</li>
@@ -56,15 +54,15 @@
             <li>CSS</li>
             <li>Flexbox</li>
             <li>CSS Grid</li>
-        </ul>
+        </ul> 
     </section>
 
     <section>
-        <h2>Projects</h2>
+        <a id="projects"><h2>Projects</h2></a>
         <hr>
-
-        <h3>Virtual Pet Shelter<h3>
-        <article class="container">
+        
+            <h3>Virtual Pet Shelter<h3>
+            <article class="container">
               <img src="Images\VPS.jpg" class="image">
               <a class="overview" href="https://github.com/2020-Winter-Cohort/module-1-week-4-virtual-pet-shelter-the-csb-animal-shelter.git">
                 <div class="overlay">
@@ -77,7 +75,7 @@
                 </div>
                 </div>
             </a>
-        </article>
+            </article>
 
         <h3>FizzBuzzQix</h3>
         <article class="container">
@@ -113,23 +111,18 @@
         </article>
     </section>
 
+    <section>
+        <a id="resume"><h3>Resume</h3></a>
+        <hr>
 
-    <section class="resume">
-        <h3>
-            Resume
-            <hr>
-        </h3>
-
-        <a href="">Resume</a>
-
+        <a href="https://github.com/brenabishop/Portfolio/blob/Main/BrenaBishopResume.pdf">Resume</a>
     </section>
 
     <footer>
-        <h3>Connect</h3>
-        <hr>
+        <a id="connect"><h3>Connect</h3></a>
         <a href="">Email</a>
-        <a href="">GitHub</a>
-        <a href="">Linkedin</a>
+        <a href="https://github.com/brenabishop">GitHub</a>
+        <a href="https://www.linkedin.com/in/brena">Linkedin</a>
     </footer>
 </body>
 </html>
